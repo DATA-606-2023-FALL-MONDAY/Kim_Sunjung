@@ -1,6 +1,6 @@
 ## 1. Title and Author: 
 
-- Project Title: Popular Baby Name in United States
+- Project Title: **Popular Baby Name in United States**
 -	Prepared for UMBC Data Science Master Degree Capstone by Dr **Chaojie (Jay) Wang**
 -	Author Name: **Sunjung Kim**
 -	Link to the author's GitHub profile: **https://github.com/DATA-606-2023-FALL-MONDAY/Kim_Sunjung/edit/main/docs/Proposal.md**
