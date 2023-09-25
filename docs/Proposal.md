@@ -65,7 +65,7 @@
     -	count (int64): This column represents the count of babies with a particular name, gender, territorial status, and year combination.
 
 - **Which variable/column will be your target/label in your ML model?**
-  - The target variable for predicting baby names is `Count` colum.
+  - The target variable for predicting baby names is `Count` column.
 
 - **Which variables/columns may be selected as features/predictors for your ML models?**
   -	`name`: using name column for popularity or characteristics.
