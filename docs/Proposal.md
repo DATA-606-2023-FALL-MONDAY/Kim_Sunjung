@@ -65,12 +65,12 @@
     -	count (int64): This column represents the count of babies with a particular name, gender, territorial status, and year combination.
 
 - **Which variable/column will be your target/label in your ML model?**
-  - The target variable for predicting baby names is 'Count' colum.
+  - The target variable for predicting baby names is `Count` colum.
 
 - **Which variables/columns may be selected as features/predictors for your ML models?**
-  -	'name': using name column for popularity or characteristics.
-  -	'gender': Using gender column to find out naming trends by gender.
-  -	'state' (in state-specific data): analyzing naming trends by state.
-  -	'year': Analyzing trends over time.
-  -	'pr_status' (in territory-specific data): Using pr_status to analyze naming trends in different territories.
+  -	`name`: using name column for popularity or characteristics.
+  -	`gender`: Using gender column to find out naming trends by gender.
+  -	`state` (in state-specific data): analyzing naming trends by state.
+  -	`year`: Analyzing trends over time.
+  -	`pr_status` (in territory-specific data): Using pr_status to analyze naming trends in different territories.
 
