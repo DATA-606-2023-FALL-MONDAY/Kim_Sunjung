@@ -15,7 +15,7 @@
  	
 - **Why does it matter?**
   - The chosen topic of this report revolves around the popularity of baby names in the United States, as indicated by data obtained from the Social Security Office. This topic delves into the trends and patterns in baby naming practices within the United States.  
-Becoming a parent is very exciting. However, naming a newborn baby could be somewhat difficult, and this is significant for several reasons: 
+  - Becoming a parent is very exciting. However, naming a newborn baby could be somewhat difficult, and this is significant for several reasons: 
     - Societal Understanding: Researching name distribution trends offers insights into     cultural and societal changes over time, reflecting cultural and generational shifts. 
     - Demographic Research: The name data is valuable for demographic research, aiding policymakers in tracking population dynamics and migration patterns. 
     -  Public Policy: Government and local organizations can utilize this name data to inform policies related to social services, education, and marketing strategies based on the demographics associated with names.
