@@ -24,7 +24,7 @@
 
     - Price Trends: What are the historical trends in housing prices in Maryland? Are prices increasing, decreasing, or stabilizing over time?
     - Geographic Variations: How do housing prices vary by location within Maryland? Are there specific areas where prices are consistently high or low?
-   - Forecasting: Can we use historical data to predict future housing market trends in Maryland? What methods and models are most accurate for forecasting?
+    - Forecasting: Can we use historical data to predict future housing market trends in Maryland? What methods and models are most accurate for forecasting?
 ## 3. Data
 
 - **Data sources:**
