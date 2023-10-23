@@ -49,7 +49,7 @@ These research questions can serve as a starting point for analyzing the Korean 
     ,average_rating,networks_ids           
   
 - **Data dictionary**:
-    | Column Name | Data Type | 
+| Column Name | Data Type | 
 |-------------|-----------|------------|
 | series_id_id   | int64 |
 | original_name   | object   | |
