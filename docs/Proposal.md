@@ -50,11 +50,10 @@ These research questions can serve as a starting point for analyzing the Korean 
   
 - **Data dictionary**:
 | Column Name | Data Type | 
-|-------------|-----------|------------|
 | series_id_id   | int64 |
-| original_name   | object   | |
-| keywords  | int64 | |
-| director_ids | object   | 
+| original_name   | object   | 
+| keywords  | int64 | 
+| director_ids | object|
 | cast_id  | int64 | |
 | genres_ids | object| 
 |synopsis | object|
