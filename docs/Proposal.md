@@ -20,7 +20,7 @@
 -	**What are your research questions?**
   - You can explore several research questions, such as:
 
-  * What are the most popular genres in South Korean dramas, and how have they evolved over time?
+  *What are the most popular genres in South Korean dramas, and how have they evolved over time?
 
   *Is there a correlation between the average rating and the number of ratings received for a series?
 
