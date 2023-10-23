@@ -1,6 +1,6 @@
 ## 1. Title and Author: 
 
-- Project Title: **Maryland Residential Housing: Prices, Trends, and Forecast.**
+- Project Title: **Korean Drama Recommendation System**
 -	Prepared for UMBC Data Science Master Degree Capstone by Dr **Chaojie (Jay) Wang**
 -	Author Name: **Sunjung Kim**
 -	Link to the author's GitHub profile: **https://github.com/DATA-606-2023-FALL-MONDAY/Kim_Sunjung/edit/main/docs/Proposal.md**
@@ -11,63 +11,63 @@
 ## 2. Background
 
 -	**What is it about?**
-  - The topic is about the housing market in Maryland, a state in the United States. It involves collecting, analyzing, and interpreting data related to housing prices, trends, and forecasts. This analysis aims to provide insights into the real estate market in Maryland.
- 	
+  - My Capstone is about Korean Drama recomendation System. Korean dramas have gaied immense popularity over a few decades. Whicha vast libary korean dramars available, viewers can find some challenge to select the best Korean dramas. This recomendation system can alleviate this issue by providing content based suggestions to invidual user. 
 - **Why does it matter?**
-  - The housing market is a critical component of the economy, and it plays a significant role in the financial well-being of individuals and the state as a whole. Understanding the housing market in Maryland is essential for various reasons:
-  - Economic Impact: The housing market has a substantial economic impact, affecting industries such as construction, finance, and real estate. It also influences property taxes and revenue for the state.
-  - Quality of Life: Housing affordability and quality impact the residents' quality of life. Access to suitable housing affects educational opportunities, access to jobs, and overall well-being.
-  - Investment Opportunities: For investors and homeowners, the housing market presents opportunities for wealth accumulation and financial security.
+  - User Satisfaction: this recomendation system can offer users to discover Korean Dramas that resonate with their interest, leading to higher satisfaction.
+  - Content Discover: Most of foreginers are having hard time to discover Korean Dramas content lists. This recomendation can helps users navigate through the overwhleming amount of content.
+  - Marketing and Revenue: For streaming platforms, en effective recomendatin system can increases revenue.
     
 -	**What are your research questions?**
-  - To explore the Maryland housing market comprehensively, we can frame various research questions:
+  - You can explore several research questions, such as:
 
-    - Price Trends: What are the historical trends in housing prices in Maryland? Are prices increasing, decreasing, or stabilizing over time?
-    - Geographic Variations: How do housing prices vary by location within Maryland? Are there specific areas where prices are consistently high or low?
-    - Forecasting: Can we use historical data to predict future housing market trends in Maryland? What methods and models are most accurate for forecasting?
+  * What are the most popular genres in South Korean dramas, and how have they evolved over time?
+
+  *Is there a correlation between the average rating and the number of ratings received for a series?
+
+  *Are there certain directors or production companies associated with higher-rated dramas?
+
+  *How has the popularity of South Korean dramas changed over the years?
+
+  *What are the most common keywords associated with successful K-dramas?
+
+  *How do viewership trends differ between domestic and international audiences?
+
+These research questions can serve as a starting point for analyzing the Korean Drama Dataset, but there are many more possibilities depending on your specific research goals and interests. The dataset provides a rich source of information for exploring various aspects of the South Korean TV drama industry and its impact both locally and globally
 ## 3. Data
 
 - **Data sources:**
-  - Multiple MLS 
+  - TMDB website
 - **Data size:**
-  - 3.46MB
+  - 0.25MB
 -	**Data shape (# of rows and # columns)**
-  - 21597, 21
+  - 1920,22
 
 -	**Time period:**
-  -	 Year Range: 2014-2015 using historial data to predict future housing price. 
+  -	 Year Range: 1983-2022
 - **What does each row represent?** 
-  - id', 'date', 'price', 'bedrooms', 'bathrooms', 'sqft_living',
-       'sqft_lot', 'floors', 'waterfront', 'view', 'condition', 'grade',
-       'sqft_above', 'sqft_basement', 'yr_built', 'yr_renovated', 'zipcode',
-       'lat', 'long', 'sqft_living15', 'sqft_lot15'],
-      dtype='object
+  - tmdb_id, name, original_name, airing_date, cast_ids, genres_ids, number_of_seasons, number_of_episodes, episode_run_time, synopsis, popularity        
+    ,average_rating,networks_ids           
   
 - **Data dictionary**:
-     - Column Name       Data Type                          Definition
-   - 0              id           int64                   Unique identifier
-   - 1            date  datetime64[ns]                        Date of sale
-   - 2           price           int64                  Price of the house
-   - 3        bedrooms           int64                  Number of bedrooms
-   - 4    bathrooms         float64                 Number of bathrooms
-   - 5     sqft_living           int64          Living area square footage
-   - 6        sqft_lot           int64                  Lot square footage
-   - 7          floors         float64                    Number of floors
-   - 8      waterfront         float64                   Waterfront status
-   - 9            view         float64                         View rating
-   - 10      condition           int64                    Condition rating
-   - 11          grade           int64                        Grade rating
-   - 12     sqft_above           int64         Square footage above ground
-   - 13  sqft_basement           int64      Square footage of the basement
-   - 14       yr_built           int64                          Year built
-   - 15   yr_renovated         float64                      Year renovated
-   - 16        zipcode           int64                             Zipcode
-   - 17            lat         float64                            Latitude
-   - 18           long         float64                           Longitude
-   - 19  sqft_living15           int64  Living area square footage in 2015
-   - 20     sqft_lot15           int64          Lot square footage in 2015
+    | Column Name | Data Type | 
+|-------------|-----------|------------|
+| series_id_id   | int64 |
+| original_name   | object   | |
+| keywords  | int64 | |
+| director_ids | object   | 
+| cast_id  | int64 | |
+| genres_ids | object| 
+|synopsis | object|
+| Popularity| int64|
+|Aver_rating | int64|
+|Networks_ids | int64|
+|episode_run_time | int64|
+
 - **Which variable/column will be your target/label in your ML model?**
-  -Tartget Column = Price
+  -Tartget Column = popularity
 
 - **Which variables/columns may be selected as features/predictors for your ML models?**
-  - Feature Columns= bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'waterfront','view','condition', 'grade', 'sqft_above', 'sqft_basement', 'yr_built', 'yr_renovated','zipcode', 'lat', 'long', 'sqft_living15', 'sqft_lot15'
+  - Feature_columns = 'epdisode_run_time, 'average_rating', and 'original_name'
+    
+## 4.Exploratory Data Analysis (EDA)
+
