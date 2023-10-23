@@ -26,13 +26,8 @@
 
   *Are there certain directors or production companies associated with higher-rated dramas?
 
-  *How has the popularity of South Korean dramas changed over the years?
-
   *What are the most common keywords associated with successful K-dramas?
-
-  *How do viewership trends differ between domestic and international audiences?
-
-These research questions can serve as a starting point for analyzing the Korean Drama Dataset, but there are many more possibilities depending on your specific research goals and interests. The dataset provides a rich source of information for exploring various aspects of the South Korean TV drama industry and its impact both locally and globally
+  
 ## 3. Data
 
 - **Data sources:**
