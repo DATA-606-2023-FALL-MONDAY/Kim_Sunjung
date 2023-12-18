@@ -33,7 +33,7 @@
 - **Data sources:**
   - TMDB website
 - **Data size:**
-  94/8 KB
+  94.8 KB
 -	**Data shape (# of rows and # columns)**
   - 1515,8
 
@@ -58,7 +58,7 @@
 |episode_run_time | int64|
 
 - **Which variable/column will be your target/label in your ML model?**
-  -Tartget Column = tmbd_id
+  -Target Column = tmbd_id
 
 - **Which variables/columns may be selected as features/predictors for your ML models?**
   - Feature_columns = 'name', 'cast', 'genres', 'synopsis'
