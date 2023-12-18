@@ -15,7 +15,7 @@
 - **Why does it matter?**
   - User Satisfaction: this recomendation system can offer users to discover Korean Dramas that resonate with their interest, leading to higher satisfaction.
   - Content Discover: Most of foreginers are having hard time to discover Korean Dramas content lists. This recomendation can helps users navigate through the overwhleming amount of content.
-  - Marketing and Revenue: For streaming platforms, en effective recomendatin system can increases revenue.
+  - Marketing and Revenue: For streaming platforms, an effective recomendatin system can increases revenue.
     
 -	**What are your research questions?**
   - You can explore several research questions, such as:
