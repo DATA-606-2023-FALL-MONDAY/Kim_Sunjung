@@ -22,9 +22,9 @@
 
   *What are the most popular genres in South Korean dramas, and how have they evolved over time?
 
-  *Is there a correlation between the average rating and the number of ratings received for a series?
+  *What are the most well-known Network compnay in South Korea?
 
-  *Are there certain directors or production companies associated with higher-rated dramas?
+  *Can I get a recommendation list base on the content?
 
   *What are the most common keywords associated with successful K-dramas?
   
@@ -33,12 +33,12 @@
 - **Data sources:**
   - TMDB website
 - **Data size:**
-  - 0.25MB
+  94/8 KB
 -	**Data shape (# of rows and # columns)**
-  - 1920,22
+  - 1515,8
 
 -	**Time period:**
-  -	 Year Range: 1983-2022
+  -	 Year Range: 1983-2023
 - **What does each row represent?** 
   - tmdb_id, name, original_name, airing_date, cast_ids, genres_ids, number_of_seasons, number_of_episodes, episode_run_time, synopsis, popularity        
     ,average_rating,networks_ids           
@@ -58,10 +58,10 @@
 |episode_run_time | int64|
 
 - **Which variable/column will be your target/label in your ML model?**
-  -Tartget Column = popularity
+  -Tartget Column = tmbd_id
 
 - **Which variables/columns may be selected as features/predictors for your ML models?**
-  - Feature_columns = 'epdisode_run_time, 'average_rating', and 'original_name'
+  - Feature_columns = 'name', 'cast', 'genres', 'synopsis'
     
 ## 4.Exploratory Data Analysis (EDA)
 
