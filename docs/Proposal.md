@@ -31,7 +31,7 @@
 ## 3. Data
 
 - **Data sources:**
-  - TMDB website
+  - Kaggle
 - **Data size:**
   94.8 KB
 -	**Data shape (# of rows and # columns)**
