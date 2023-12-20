@@ -5,7 +5,7 @@
 -	Author Name: **Sunjung Kim**
 -	Link to the author's GitHub profile: **https://github.com/DATA-606-2023-FALL-MONDAY/Kim_Sunjung/edit/main/docs/Proposal.md**
 -	Link to the author's LinkedIn profile: **N/A**
--	Link to your PowerPoint presentation file: **https://github.com/DATA-606-2023-FALL-MONDAY/Kim_Sunjung/blob/main/docs/Final%20.pptx**
+-	Link to your PowerPoint presentation file: **https://github.com/DATA-606-2023-FALL-MONDAY/Kim_Sunjung/blob/main/src/K-Drama%20Recommendation%20System%20and%20Web%20App%20.pptx**
 - Link to your YouTube video: **https://www.youtube.com/watch?v=EkMhBvk3cRU**
   
 ## 2. Background
