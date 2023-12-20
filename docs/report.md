@@ -48,7 +48,7 @@
   
 - **Data dictionary**:
 <p align="center">
-  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Kim_Sunjung/blob/main/data/Data.png">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Kim_Sunjung/blob/main/data/Cleaned%20data.png">
 </p>
 
 - **Which variable/column will be your target/label in your ML model?**
