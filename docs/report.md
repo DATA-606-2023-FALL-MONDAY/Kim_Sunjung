@@ -91,9 +91,9 @@ This displaying top 50 most common words in the synopsis.
   - Synopsis: Providing a brief overview of the K-drama plot.
   - Genres: Identifying the genres associated with each K-drama.
  
-  - Data Transformation: The concatenated column attribute_based containing these metadata elements in text form will be converted into numerical vectors using CountVectorizer.
-  - Count Matrix: The transformation results in a count_matrix_attribute which is a numerical representation of the metadata.
-  - Cosine Similarity Calculation:The system will calculate the Cosine Similarity of the count_matrix_attribute. This metric will determine the similarity between K-dramas based on the key metadata elements, allowing for more targeted recommendations.
+  - Data Transformation: The concatenated column attribute_based containing these in text form will be converted into numerical vectors using CountVectorizer.
+  - Count Matrix: The transformation results in a count_matrix_attribute which is a numerical representation.
+  - Cosine Similarity Calculation:The system will calculate the Cosine Similarity of the count_matrix_attribute. This metric will determine the similarity between K-dramas based on the key elements, allowing for more targeted recommendations.
   - Implementation: the system utilizes the user's preferences to find K-dramas with similar metadata profiles in the count_matrix_attribute. The system then recommends K-dramas with the highest Cosine Similarity scores.
 
 - Web Application using Streamlit:
