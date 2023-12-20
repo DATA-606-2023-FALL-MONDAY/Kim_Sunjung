@@ -96,7 +96,7 @@ This displaying top 50 most common words in the synopsis.
   - Cosine Similarity Calculation:The system will calculate the Cosine Similarity of the count_matrix_attribute. This metric will determine the similarity between K-dramas based on the key elements, allowing for more targeted recommendations.
   - Implementation: the system utilizes the user's preferences to find K-dramas with similar metadata profiles in the count_matrix_attribute. The system then recommends K-dramas with the highest Cosine Similarity scores.
 
-- Web Application using Streamlit:
+- **Web Application using Streamlit:**
 <p align="center">
   <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Kim_Sunjung/blob/main/data/Image%20for%20Web%20Application.png">
 </p>
